@@ -27,7 +27,7 @@ sentence 将被编码为[CLS] <question> [SEP] <sentence> [SEP]
 
   ![image-20210521201456867](./picture/image-20210521201456867.png)
 
-- 最后在可能会是触发词的问题中加入标记`<trigger>`
+- 最后在问题中加入触发词检测所抽取的标记`<trigger>`
 
   <WH_word> is the <argument> in <trigger>?
 
