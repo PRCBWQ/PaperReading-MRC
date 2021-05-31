@@ -2,7 +2,7 @@
 
 ## 1 框架概述
 
-![image-20210521195811377](picture\image-20210521195811377.png)
+![image-20210521195811377](./picture/image-20210521195811377.png)
 
 - BERT_QA_Trigger	识别触发词
 
@@ -25,7 +25,7 @@ sentence 将被编码为[CLS] <question> [SEP] <sentence> [SEP]
 
 - 3 利用ACE注释中每个参数角色描述来构建问题（更贴近自然）
 
-  ![image-20210521201456867](picture\image-20210521201456867.png)
+  ![image-20210521201456867](./picture/image-20210521201456867.png)
 
 - 最后在可能会是触发词的问题中加入标记`<trigger>`
 
@@ -41,9 +41,9 @@ sentence 将被编码为[CLS] <question> [SEP] <sentence> [SEP]
 
 
 
-![image-20210521203700111](picture\image-20210521203700111.png)
+![image-20210521203700111](./picture/image-20210521203700111.png)
 
-![image-20210521203728090](picture\image-20210521203728090.png)
+![image-20210521203728090](./picture/image-20210521203728090.png)
 
 我们使用$E$ 和$ A$ 表示结果 $E \in R^{N*H} A \in R^{M*H} $
 
@@ -67,8 +67,8 @@ $P_s=softmax(AW_s) \quad P_e=softmax(AW_e)$
 
 
 
-![image-20210530222358561](picture\image-20210530222358561.png)
+![image-20210530222358561](./picture/image-20210530222358561.png)
 
 
 
-![image-20210530222431424](picture\image-20210530222431424.png)
+![image-20210530222431424](./picture/image-20210530222431424.png)
